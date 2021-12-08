@@ -1,0 +1,413 @@
+networks:
+  test_socket_net:
+    driver: bridge
+
+services:
+  py-service:
+    environment:
+      # If changing this number remember to uncomment/comment a service below respectively
+      - HOSTS_NUMBER=81
+    build: py-service
+    networks:
+      - test_socket_net
+  host-0:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-1:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-2:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-3:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-4:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-5:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-6:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-7:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-8:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-9:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-10:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-11:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-12:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-13:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-14:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-15:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-16:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-17:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-18:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-19:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-20:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-21:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-22:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-23:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-24:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-25:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-26:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-27:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-28:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-29:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-30:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-31:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-32:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-33:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-34:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-35:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-36:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-37:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-38:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-39:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-40:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-41:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-42:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-43:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-44:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-45:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-46:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-47:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-48:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-49:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-50:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-51:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-52:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-53:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-54:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-55:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-56:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-57:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-58:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-59:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-60:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-61:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-62:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-63:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-64:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-65:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-66:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-67:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-68:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-69:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-70:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-71:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-72:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-73:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-74:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-75:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-76:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-77:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-78:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-79:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-80:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  host-81:
+    build: base-ssh-service
+    networks:
+      - test_socket_net
+  # With these host enabled am not able to build
+  # host-82:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-83:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-84:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-85:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-86:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-87:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-88:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-89:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-90:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-91:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-92:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-93:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-94:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-95:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-96:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-97:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-98:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
+  # host-99:
+  #   build: base-ssh-service
+  #   networks:
+  #     - test_socket_net
